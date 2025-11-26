@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151359-1693",
+  "Timestamp": "2025-11-25T15:13:59.951251",
+  "Product": "Bisleri Water (1L)",
+  "CurrentStock": 50,
+  "PredictedDaysToDepletion": 1.027279553460204,
+  "Confidence": 0.5762437206095927,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 42216,
+  "Reasoning": "CRITICAL urgency: 1.0 days to stockout; LIME: AvgDailySales increases urgency (impact: 0.22); CurrentStock decreases urgency (impact: 0.13); StockPercentage decreases urgency (impact: 0.10); Recommended order: 42216 units for 30-day coverage; Requires human approval (confidence=0.58, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: +0.22; CurrentStock: -0.13",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 105.0 units in stock and daily sales of 701.6 units, stockout predicted in 0.6 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

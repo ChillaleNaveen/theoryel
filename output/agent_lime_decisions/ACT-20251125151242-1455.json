@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151242-1455",
+  "Timestamp": "2025-11-25T15:12:42.141409",
+  "Product": "Rice (5kg)",
+  "CurrentStock": 190,
+  "PredictedDaysToDepletion": 1.0910081730785364,
+  "Confidence": 0.5511300917604848,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 34860,
+  "Reasoning": "CRITICAL urgency: 1.1 days to stockout; LIME: AvgDailySales decreases urgency (impact: 0.16); StockPercentage increases urgency (impact: 0.15); CurrentStock decreases urgency (impact: 0.13); Recommended order: 34860 units for 30-day coverage; Requires human approval (confidence=0.55, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: -0.16; StockPercentage: +0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 149.0 units in stock and daily sales of 606.8 units, stockout predicted in 0.7 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

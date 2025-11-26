@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125153817-0841",
+  "Timestamp": "2025-11-25T15:38:17.002453",
+  "Product": "Pulses (1kg)",
+  "CurrentStock": 162,
+  "PredictedDaysToDepletion": 0.7326354848485199,
+  "Confidence": 0.6201440697660627,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 69996,
+  "Reasoning": "CRITICAL urgency: 0.7 days to stockout; LIME: StockPercentage decreases urgency (impact: 0.16); AvgDailySales decreases urgency (impact: 0.15); CurrentStock decreases urgency (impact: 0.14); Recommended order: 69996 units for 30-day coverage; Requires human approval (confidence=0.62, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: -0.16; AvgDailySales: -0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 114.0 units in stock and daily sales of 613.8 units, stockout predicted in 0.4 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

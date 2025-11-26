@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125152006-7257",
+  "Timestamp": "2025-11-25T15:20:06.340248",
+  "Product": "Salt (1kg)",
+  "CurrentStock": 59,
+  "PredictedDaysToDepletion": 1.027279553460204,
+  "Confidence": 0.5762437206095927,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 41244,
+  "Reasoning": "CRITICAL urgency: 1.0 days to stockout; LIME: StockPercentage increases urgency (impact: 0.18); CurrentStock increases urgency (impact: 0.17); AvgDailySales decreases urgency (impact: 0.13); Recommended order: 41244 units for 30-day coverage; Requires human approval (confidence=0.58, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: +0.18; CurrentStock: +0.17",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 198.0 units in stock and daily sales of 553.0 units, stockout predicted in 1.0 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

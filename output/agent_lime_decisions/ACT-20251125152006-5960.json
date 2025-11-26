@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125152006-5960",
+  "Timestamp": "2025-11-25T15:20:06.333207",
+  "Product": "Real Juice (1L)",
+  "CurrentStock": 139,
+  "PredictedDaysToDepletion": 0.8345263465557419,
+  "Confidence": 0.6178563024591996,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 53544,
+  "Reasoning": "CRITICAL urgency: 0.8 days to stockout; LIME: AvgDailySales increases urgency (impact: 0.24); StockPercentage increases urgency (impact: 0.11); CurrentStock increases urgency (impact: 0.10); Recommended order: 53544 units for 30-day coverage; Requires human approval (confidence=0.62, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: +0.24; StockPercentage: +0.11",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 62.0 units in stock and daily sales of 716.2 units, stockout predicted in 1.1 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

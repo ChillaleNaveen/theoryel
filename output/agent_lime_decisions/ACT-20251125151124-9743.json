@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151124-9743",
+  "Timestamp": "2025-11-25T15:11:24.100787",
+  "Product": "Dry Fruits (250g)",
+  "CurrentStock": 161,
+  "PredictedDaysToDepletion": 0.5624483496852045,
+  "Confidence": 0.6924909860916852,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 40116,
+  "Reasoning": "CRITICAL urgency: 0.6 days to stockout; LIME: AvgDailySales increases urgency (impact: 0.21); CurrentStock increases urgency (impact: 0.16); StockPercentage increases urgency (impact: 0.16); Recommended order: 40116 units for 30-day coverage; Requires human approval (confidence=0.69, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: +0.21; CurrentStock: +0.16",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 173.0 units in stock and daily sales of 706.2 units, stockout predicted in 1.2 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

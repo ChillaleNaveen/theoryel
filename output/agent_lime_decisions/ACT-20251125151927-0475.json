@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151927-0475",
+  "Timestamp": "2025-11-25T15:19:27.540053",
+  "Product": "Shampoo (250ml)",
+  "CurrentStock": 141,
+  "PredictedDaysToDepletion": 0.9225309539668456,
+  "Confidence": 0.6130372082553563,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 60012,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: StockPercentage increases urgency (impact: 0.11); CurrentStock increases urgency (impact: 0.09); AvgDailySales increases urgency (impact: 0.08); Recommended order: 60012 units for 30-day coverage; Requires human approval (confidence=0.61, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: +0.11; CurrentStock: +0.09",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 52.0 units in stock and daily sales of 821.4 units, stockout predicted in 1.0 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

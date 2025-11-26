@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125154955-4811",
+  "Timestamp": "2025-11-25T15:49:55.731730",
+  "Product": "Paneer (200g)",
+  "CurrentStock": 120,
+  "PredictedDaysToDepletion": 0.7830783377439419,
+  "Confidence": 0.603000949844716,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 95448,
+  "Reasoning": "CRITICAL urgency: 0.8 days to stockout; LIME: CurrentStock increases urgency (impact: 0.17); StockPercentage increases urgency (impact: 0.15); AvgDailySales decreases urgency (impact: 0.12); Recommended order: 95448 units for 30-day coverage; Requires human approval (confidence=0.60, urgency=CRITICAL)",
+  "LIMEEvidence": "CurrentStock: +0.17; StockPercentage: +0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 160.0 units in stock and daily sales of 671.4 units, stockout predicted in 0.6 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

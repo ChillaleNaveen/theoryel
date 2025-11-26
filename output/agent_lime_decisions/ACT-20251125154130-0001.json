@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125154130-0001",
+  "Timestamp": "2025-11-25T15:41:30.639947",
+  "Product": "Facewash (100ml)",
+  "CurrentStock": 96,
+  "PredictedDaysToDepletion": 0.8013007796908466,
+  "Confidence": 0.5828028855727099,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 108396,
+  "Reasoning": "CRITICAL urgency: 0.8 days to stockout; LIME: CurrentStock increases urgency (impact: 0.11); AvgDailySales increases urgency (impact: 0.09); StockPercentage increases urgency (impact: 0.09); Recommended order: 108396 units for 30-day coverage; Requires human approval (confidence=0.58, urgency=CRITICAL)",
+  "LIMEEvidence": "CurrentStock: +0.11; AvgDailySales: +0.09",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 62.0 units in stock and daily sales of 873.4 units, stockout predicted in 1.0 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

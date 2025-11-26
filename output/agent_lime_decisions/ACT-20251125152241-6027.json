@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125152241-6027",
+  "Timestamp": "2025-11-25T15:22:41.579575",
+  "Product": "Pepsi (2L)",
+  "CurrentStock": 169,
+  "PredictedDaysToDepletion": 0.7470219418565993,
+  "Confidence": 0.579453728240929,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 54780,
+  "Reasoning": "CRITICAL urgency: 0.7 days to stockout; LIME: AvgDailySales decreases urgency (impact: 0.16); StockPercentage increases urgency (impact: 0.12); CurrentStock increases urgency (impact: 0.11); Recommended order: 54780 units for 30-day coverage; Requires human approval (confidence=0.58, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: -0.16; StockPercentage: +0.12",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 68.0 units in stock and daily sales of 684.0 units, stockout predicted in 0.8 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

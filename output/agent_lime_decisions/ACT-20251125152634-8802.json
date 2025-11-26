@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125152634-8802",
+  "Timestamp": "2025-11-25T15:26:34.645941",
+  "Product": "Cheese (200g)",
+  "CurrentStock": 142,
+  "PredictedDaysToDepletion": 0.9086860449524744,
+  "Confidence": 0.6105098274278578,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 61968,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: AvgDailySales decreases urgency (impact: 0.14); StockPercentage increases urgency (impact: 0.12); CurrentStock increases urgency (impact: 0.09); Recommended order: 61968 units for 30-day coverage; Requires human approval (confidence=0.61, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: -0.14; StockPercentage: +0.12",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 55.0 units in stock and daily sales of 683.4 units, stockout predicted in 0.8 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

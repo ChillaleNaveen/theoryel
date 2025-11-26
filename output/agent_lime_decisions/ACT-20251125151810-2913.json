@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151810-2913",
+  "Timestamp": "2025-11-25T15:18:10.266401",
+  "Product": "Chocolate",
+  "CurrentStock": 106,
+  "PredictedDaysToDepletion": 0.8911041889071322,
+  "Confidence": 0.6079020384456207,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 48444,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: AvgDailySales increases urgency (impact: 0.23); CurrentStock decreases urgency (impact: 0.15); StockPercentage decreases urgency (impact: 0.09); Recommended order: 48444 units for 30-day coverage; Requires human approval (confidence=0.61, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: +0.23; CurrentStock: -0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 97.0 units in stock and daily sales of 709.4 units, stockout predicted in 1.0 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

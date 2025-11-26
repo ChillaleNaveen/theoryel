@@ -1,0 +1,10 @@
+{
+  "shap_values": {
+    "CurrentStock": -0.0704216335443204,
+    "AvgDailySales": 0.028990548653120556,
+    "StockPercentage": 0.03386911882920205
+  },
+  "base_value": 0.7906403038059399,
+  "feature_importance": {},
+  "explanation_text": "All features have minimal impact"
+}

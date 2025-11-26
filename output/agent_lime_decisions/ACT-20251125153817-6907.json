@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125153817-6907",
+  "Timestamp": "2025-11-25T15:38:17.003450",
+  "Product": "Curd (500g)",
+  "CurrentStock": 73,
+  "PredictedDaysToDepletion": 0.8735255081497167,
+  "Confidence": 0.5673609192262927,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 82584,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: StockPercentage decreases urgency (impact: 0.19); CurrentStock decreases urgency (impact: 0.13); AvgDailySales increases urgency (impact: 0.08); Recommended order: 82584 units for 30-day coverage; Requires human approval (confidence=0.57, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: -0.19; CurrentStock: -0.13",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 137.0 units in stock and daily sales of 732.2 units, stockout predicted in 0.7 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

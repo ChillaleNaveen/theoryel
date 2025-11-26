@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151438-3297",
+  "Timestamp": "2025-11-25T15:14:38.902218",
+  "Product": "Wheat Flour (5kg)",
+  "CurrentStock": 148,
+  "PredictedDaysToDepletion": 0.7202984863778674,
+  "Confidence": 0.6116278470322875,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 36492,
+  "Reasoning": "CRITICAL urgency: 0.7 days to stockout; LIME: CurrentStock decreases urgency (impact: 0.15); AvgDailySales decreases urgency (impact: 0.15); StockPercentage decreases urgency (impact: 0.08); Recommended order: 36492 units for 30-day coverage; Requires human approval (confidence=0.61, urgency=CRITICAL)",
+  "LIMEEvidence": "CurrentStock: -0.15; AvgDailySales: -0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 100.0 units in stock and daily sales of 571.2 units, stockout predicted in 0.3 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125153659-6364",
+  "Timestamp": "2025-11-25T15:36:59.986239",
+  "Product": "Coca Cola (2L)",
+  "CurrentStock": 136,
+  "PredictedDaysToDepletion": 0.8010574393115405,
+  "Confidence": 0.6046213784707611,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 80160,
+  "Reasoning": "CRITICAL urgency: 0.8 days to stockout; LIME: CurrentStock increases urgency (impact: 0.19); StockPercentage increases urgency (impact: 0.15); AvgDailySales increases urgency (impact: 0.07); Recommended order: 80160 units for 30-day coverage; Requires human approval (confidence=0.60, urgency=CRITICAL)",
+  "LIMEEvidence": "CurrentStock: +0.19; StockPercentage: +0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 194.0 units in stock and daily sales of 737.6 units, stockout predicted in 1.3 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

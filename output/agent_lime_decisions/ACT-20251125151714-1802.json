@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151714-1802",
+  "Timestamp": "2025-11-25T15:17:14.636759",
+  "Product": "Soap (125g)",
+  "CurrentStock": 175,
+  "PredictedDaysToDepletion": 0.7950346537990969,
+  "Confidence": 0.5768560462282641,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 58992,
+  "Reasoning": "CRITICAL urgency: 0.8 days to stockout; LIME: CurrentStock increases urgency (impact: 0.10); StockPercentage increases urgency (impact: 0.10); AvgDailySales increases urgency (impact: 0.09); Recommended order: 58992 units for 30-day coverage; Requires human approval (confidence=0.58, urgency=CRITICAL)",
+  "LIMEEvidence": "CurrentStock: +0.10; StockPercentage: +0.10",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 73.0 units in stock and daily sales of 867.6 units, stockout predicted in 0.9 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

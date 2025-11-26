@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125152202-9821",
+  "Timestamp": "2025-11-25T15:22:02.584970",
+  "Product": "Sugar (1kg)",
+  "CurrentStock": 108,
+  "PredictedDaysToDepletion": 0.8935091256692133,
+  "Confidence": 0.6156439146281688,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 43596,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: StockPercentage decreases urgency (impact: 0.18); AvgDailySales decreases urgency (impact: 0.15); CurrentStock decreases urgency (impact: 0.14); Recommended order: 43596 units for 30-day coverage; Requires human approval (confidence=0.62, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: -0.18; AvgDailySales: -0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 123.0 units in stock and daily sales of 561.4 units, stockout predicted in 0.4 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

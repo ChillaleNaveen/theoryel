@@ -1,0 +1,13 @@
+{
+  "explanation_type": "LIME",
+  "feature_contributions": {
+    "AvgDailySales": -51.54093451012708,
+    "StockPercentage": -41.243960682852865,
+    "CurrentStock": -0.4482820394935806
+  },
+  "base_value": 163.45662319541168,
+  "prediction_value": 70.22344596293817,
+  "explanation_text": "AvgDailySales decreases urgency (impact: 51.54); StockPercentage decreases urgency (impact: 41.24); CurrentStock decreases urgency (impact: 0.45)",
+  "decision_rationale": "MONITOR: 164.0 units provides 70.2 days of coverage. Current stock is adequate given 140.6 daily sales rate.",
+  "decision_type": "reorder"
+}

@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151556-9247",
+  "Timestamp": "2025-11-25T15:15:56.724955",
+  "Product": "Kurkure",
+  "CurrentStock": 54,
+  "PredictedDaysToDepletion": 0.9635749227886043,
+  "Confidence": 0.5667399896420706,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 48516,
+  "Reasoning": "CRITICAL urgency: 1.0 days to stockout; LIME: AvgDailySales increases urgency (impact: 0.22); StockPercentage increases urgency (impact: 0.15); CurrentStock decreases urgency (impact: 0.14); Recommended order: 48516 units for 30-day coverage; Requires human approval (confidence=0.57, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: +0.22; StockPercentage: +0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 157.0 units in stock and daily sales of 706.8 units, stockout predicted in 0.7 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

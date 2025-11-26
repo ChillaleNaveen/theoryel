@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151044-7513",
+  "Timestamp": "2025-11-25T15:10:44.624588",
+  "Product": "Cooking Oil (1L)",
+  "CurrentStock": 59,
+  "PredictedDaysToDepletion": 0.93545358842471,
+  "Confidence": 0.5558821376395928,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 31848,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: AvgDailySales decreases urgency (impact: 0.16); StockPercentage increases urgency (impact: 0.16); CurrentStock decreases urgency (impact: 0.13); Recommended order: 31848 units for 30-day coverage; Requires human approval (confidence=0.56, urgency=CRITICAL)",
+  "LIMEEvidence": "AvgDailySales: -0.16; StockPercentage: +0.16",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 157.0 units in stock and daily sales of 597.0 units, stockout predicted in 0.8 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

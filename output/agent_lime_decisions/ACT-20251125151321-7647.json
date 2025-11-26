@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151321-7647",
+  "Timestamp": "2025-11-25T15:13:21.132585",
+  "Product": "Toothpaste (150g)",
+  "CurrentStock": 108,
+  "PredictedDaysToDepletion": 0.7830704908755834,
+  "Confidence": 0.6029965422874409,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 53736,
+  "Reasoning": "CRITICAL urgency: 0.8 days to stockout; LIME: CurrentStock decreases urgency (impact: 0.12); StockPercentage decreases urgency (impact: 0.09); AvgDailySales increases urgency (impact: 0.08); Recommended order: 53736 units for 30-day coverage; Requires human approval (confidence=0.60, urgency=CRITICAL)",
+  "LIMEEvidence": "CurrentStock: -0.12; StockPercentage: -0.09",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 135.0 units in stock and daily sales of 902.0 units, stockout predicted in 0.8 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

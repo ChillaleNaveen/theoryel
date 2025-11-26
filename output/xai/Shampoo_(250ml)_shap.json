@@ -1,0 +1,14 @@
+{
+  "shap_values": {
+    "CurrentStock": -0.5983877097885051,
+    "AvgDailySales": -0.6609087332308704,
+    "StockPercentage": -3.5070445590089627
+  },
+  "base_value": 9.976770165901813,
+  "feature_importance": {
+    "CurrentStock": 0.3204091564930588,
+    "AvgDailySales": 0.08670619830049113,
+    "StockPercentage": 0.5928846452064501
+  },
+  "explanation_text": "CurrentStock decreases depletion time by 0.6 days; AvgDailySales decreases depletion time by 0.7 days; StockPercentage decreases depletion time by 3.5 days"
+}

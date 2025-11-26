@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125152555-3010",
+  "Timestamp": "2025-11-25T15:25:55.901968",
+  "Product": "Red Bull (250ml)",
+  "CurrentStock": 136,
+  "PredictedDaysToDepletion": 0.908686044952474,
+  "Confidence": 0.6105098274278578,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 61908,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: CurrentStock decreases urgency (impact: 0.13); StockPercentage decreases urgency (impact: 0.11); AvgDailySales increases urgency (impact: 0.08); Recommended order: 61908 units for 30-day coverage; Requires human approval (confidence=0.61, urgency=CRITICAL)",
+  "LIMEEvidence": "CurrentStock: -0.13; StockPercentage: -0.11",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 128.0 units in stock and daily sales of 731.8 units, stockout predicted in 0.6 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151203-5409",
+  "Timestamp": "2025-11-25T15:12:03.149994",
+  "Product": "Biscuits",
+  "CurrentStock": 92,
+  "PredictedDaysToDepletion": 1.1173878652536713,
+  "Confidence": 0.5838088091247013,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 39240,
+  "Reasoning": "CRITICAL urgency: 1.1 days to stockout; LIME: StockPercentage decreases urgency (impact: 0.18); AvgDailySales decreases urgency (impact: 0.15); CurrentStock decreases urgency (impact: 0.11); Recommended order: 39240 units for 30-day coverage; Requires human approval (confidence=0.58, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: -0.18; AvgDailySales: -0.15",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 133.0 units in stock and daily sales of 685.6 units, stockout predicted in 0.5 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

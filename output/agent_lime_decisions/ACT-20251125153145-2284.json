@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125153145-2284",
+  "Timestamp": "2025-11-25T15:31:45.410806",
+  "Product": "Lays Chips",
+  "CurrentStock": 152,
+  "PredictedDaysToDepletion": 0.6971970456123512,
+  "Confidence": 0.6151690923127876,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 73188,
+  "Reasoning": "CRITICAL urgency: 0.7 days to stockout; LIME: StockPercentage increases urgency (impact: 0.13); AvgDailySales increases urgency (impact: 0.10); CurrentStock increases urgency (impact: 0.08); Recommended order: 73188 units for 30-day coverage; Requires human approval (confidence=0.62, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: +0.13; AvgDailySales: +0.10",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 50.0 units in stock and daily sales of 726.2 units, stockout predicted in 1.0 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}

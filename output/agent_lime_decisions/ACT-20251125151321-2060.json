@@ -1,0 +1,17 @@
+{
+  "ActionID": "ACT-20251125151321-2060",
+  "Timestamp": "2025-11-25T15:13:21.134592",
+  "Product": "Butter (100g)",
+  "CurrentStock": 182,
+  "PredictedDaysToDepletion": 0.8971977410010551,
+  "Confidence": 0.5660452214264129,
+  "UrgencyLevel": "CRITICAL",
+  "ReorderQuantity": 43740,
+  "Reasoning": "CRITICAL urgency: 0.9 days to stockout; LIME: StockPercentage increases urgency (impact: 0.13); CurrentStock increases urgency (impact: 0.09); AvgDailySales increases urgency (impact: 0.08); Recommended order: 43740 units for 30-day coverage; Requires human approval (confidence=0.57, urgency=CRITICAL)",
+  "LIMEEvidence": "StockPercentage: +0.13; CurrentStock: +0.09",
+  "DecisionRationale": "REORDER IMMEDIATELY: With only 63.0 units in stock and daily sales of 733.0 units, stockout predicted in 1.0 days. The low current stock level is the primary driver of this critical situation.",
+  "Status": "PENDING",
+  "ApprovedBy": null,
+  "ApprovedAt": null,
+  "ExplanationType": "LIME"
+}
